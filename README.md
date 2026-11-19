@@ -10,4 +10,4 @@ Documentation for [Recipe Book](https://github.com/LeeKnowles02/cc-demo-walkthro
 
 ## Version
 
-`version.json` holds the app version these docs describe (`appVersion`). The app reports its own version at `/version.json`, written on every build. When the two differ, the docs need checking; after the docs are updated, `appVersion` is set to the app's version.
+`version.json` holds the app version these docs describe (`appVersion`) and the app commit they were checked against (`appCommit`). The app reports its own version at `/version.json`, written on every build. When the two versions differ, the docs need checking; once they are updated, both fields are set to the app's version and commit.
